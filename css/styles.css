@@ -1,3 +1,53 @@
+/*
+COLOR PALETTE
+https://coolors.co/32292f-99e1d9-f0f7f4-70abaf-705d56
+--black-coffee: #32292fff;
+--middle-blue-green: #99e1d9ff;
+--mint-cream: #f0f7f4ff;
+--cadet-blue: #70abafff;
+--middle-grey: #8a817cff;
+*/
+
+
+/* Global styles
+------------------------------------------------------------*/
+body {
+    color: #32292fff;
+}
 img {
     width: 300px;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Profile
+------------------------------------------------------------*/
+header {
+    background: #99e1d9ff;
+}
+
+/* Projects
+------------------------------------------------------------*/
+.projects {
+    background: #f0f7f4ff;
+}
+
+/* Work Experience
+------------------------------------------------------------*/
+.work-experience {
+    background: #70abafff;
+}
+
+/* Education
+------------------------------------------------------------*/
+.eduction {
+    background: #f0f7f4ff;
+}
+
+/* Contact Info
+------------------------------------------------------------*/
+footer {
+    background: #8a817cff;
 }
