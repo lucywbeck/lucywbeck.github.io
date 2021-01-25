@@ -10,84 +10,94 @@
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <h1>Lucy Beck</h1>
-        <h2>Undergraduate Student at Cornell University</h2>
+        <div class="content-wrap">
+          <h1>Lucy Beck</h1>
+          <h2>Computer Science Student at Cornell University</h2>
 
-        <p>Hi I'm Lucy, an undergraduate student studying computer science at Cornell University.
-            My technical skills include extensive knowledge of object-oriented programming and
-            graphical user interfaces (GUIs). </p>
-        <p>In my free time, I developed a Frogger game clone
-            with a GUI that receives user input to support interactive game play, a tic-tac-toe
-            game that uses artificial intelligence to win the game, and a scientific calculator
-            that supports complex operations including infinite and imaginary units.</p>
+          <p>As an undergraduate student studying computer science at Cornell University,
+              my technical skills include extensive knowledge of object-oriented programming and
+              graphical user interfaces (GUIs). </p>
+        </div>
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects">
-        <h2>Featured Projects</h2>
-        <p>View selected projects below. More information can be found at <a href="https://github.com/lucywbeck">github.com/lucywbeck</a>.</p>
+        <div class="content-wrap">
+          <h2>Featured Projects</h2>
+          <p>View selected projects below. More information can be found at <a href="https://github.com/lucywbeck">github.com/lucywbeck</a>.</p>
+          <section>
+            <h3>Photo Editor</h3>
+            <img src="project-thumbnail.png" alt="Photo Editor image">
+            <p>Photo Editor allows the user to upload any PNG file and adjust brightness, contrast,
+              warmth, saturation, and apply a variety of photo filters such as Vignette, Black and White,
+              Invert, Solarise, and Pixelize. I developed a GUI that displays the original image and the
+              edited image side by side as the user is applying his or her eidts. I designed the filters
+              by using mathematical algorithms to manipulate pixel data in the form of RGB and HSV values.
+              I also implemented  an edit history that tracks up to 50 modifications, allowing the user to
+              undo and reset edits to an image. All code was written in Python.</p>
+          </section>
 
-        <section>
-          <h3>Froggo</h3>
-          <img src="project-thumbnail.png" alt="Froggo image">
-          <p>Froggo is a clone of the 1981 arcade game Frogger. I developed a graphical user
-              interface (GUI) that receives user input to support interactive game play. I
-              designed multiple levels that support JSON files, audio, 2D graphics with hitboxes,
-              and scheduled events. I utilized property decorators, generators, and coroutines to
-              create model classes that support 2D animation. I implemented the model-view-controller
-              design pattern to organize code written in Python and Kivy</p>
-        </section>
+          <section>
+            <h3>Froggo</h3>
+            <img src="project-thumbnail.png" alt="Froggo image">
+            <p>Froggo is a clone of the 1981 arcade game Frogger. The modern day equivalent
+              to Frogger is Crossy Road. I developed a graphical user interface (GUI) that receives
+              user input to support interactive game play. I designed multiple levels that support
+              JSON files, audio, 2D graphics with hitboxes, and scheduled events. I utilized property
+              decorators, generators, and coroutines to create model classes that support 2D animation.
+              I implemented the model-view-controller design pattern to organize code written in Python.</p>
+          </section>
+        </div>
       </section>
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-experience">
-        <h2>Work Experience</h2>
-        <p>Before I entered my first year of college, I had my heart set on becoming a doctor.
-            However, after taking my first CS class at Cornell University, I fell in love with
-            the problem-solving nature of CS. I started taking web design courses and coding up
-            personal projects in my free time to gain more exposure to CS.</p>
-        <p>Although my past work experiences are not related to CS, I believe that those experiences
-            have given me the interpersonal and analytical skills to succeed as an aspiring software developer.</p>
-
-        <section>
-          <h3>Northwestern Medicine Central Dupage Hospital - Winfield, IL</h3>
-          <h4>Perioperative Care Technician</h4>
-          <p>Jun 2020 - Sep 2020</p>
-          <ul>
-            <li>Monitored and recorded vital signs and glucose levels before and after surgery for up to 30 patients of all ages daily</li>
-            <li>Collected, labeled, and transported specimens, including blood, sputum, urine, and fecal samples, to the laboratory</li>
-            <li>Sterilized equipment before and after use, maintained use records, and ensured that items were properly stored between uses</li>
-            <li>Updated paper and electronic medical records regarding patient information while complying with HIPAA regulations</li>
-          </ul>
+        <div class="content-wrap">
+          <h2>Work Experience</h2>
+          <section>
+            <h3>Northwestern Medicine Central Dupage Hospital - Winfield, IL</h3>
+            <h4>Perioperative Care Technician</h4>
+            <p>Jun 2020 - Sep 2020</p>
+            <ul>
+              <li>Monitored and recorded vital signs and glucose levels before and after surgery for up to 30 patients of all ages daily</li>
+              <li>Collected, labeled, and transported specimens, including blood, sputum, urine, and fecal samples, to the laboratory</li>
+              <li>Sterilized equipment before and after use, maintained use records, and ensured that items were properly stored between uses</li>
+              <li>Updated paper and electronic medical records regarding patient information while complying with HIPAA regulations</li>
+            </ul>
+          </div>
         </section>
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section class="eduction">
-        <h2>Education</h2>
+        <div class="content-wrap">
+          <h2>Education</h2>
 
-        <section>
-          <h3>Cornell University - Ithaca, NY</h3>
-          <h4>Bachelor of Arts - BA, Computer Science | GPA: 4.09/4.3 | Dean’s List</h4>
-          <p>Aug 2020 - May 2024</p>
-          <p>Relevant Coursework: Computing Using Python, Object-Oriented Programming & Data Structures, Probability Models & Inferences</p>
-        </section>
+          <section>
+            <h3>Cornell University - Ithaca, NY</h3>
+            <h4>Bachelor of Arts - BA, Computer Science | GPA: 4.09/4.3 | Dean’s List</h4>
+            <p>Aug 2020 - May 2024</p>
+            <p>Relevant Coursework: Computing Using Python, Object-Oriented Programming & Data Structures, Probability Models & Inferences</p>
+          </section>
 
-        <section>
-          <h3>Bartlett High School - Bartlett, IL</h3>
-          <h4>High School Diploma | GPA: 4.68/5.0 Weighted, 4.0/4.0 Unweighted</h4>
-          <p>Aug 2016 - May 2020</p>
+          <section>
+            <h3>Bartlett High School - Bartlett, IL</h3>
+            <h4>High School Diploma | GPA: 4.7/5.0 Weighted, 4.0/4.0 Unweighted</h4>
+            <p>Aug 2016 - May 2020</p>
+          </div>
         </section>
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
-        <h2>Let's Keep in Touch!</h2>
-        <ul>
-          <li><a href="mailto:lucywbeck@gmail.com">lucywbeck@gmail.com</a></li>
-          <li><a href="https://github.com/lucywbeck">github.com/lucywbeck</a></li>
-          <li><a href="https://www.linkedin.com/in/lucywbeck/">linkedin.com/in/lucywbeck</a></li>
-        </ul>
+        <div class="content-wrap">
+          <h2>Let's Keep in Touch!</h2>
+          <ul>
+            <li><a href="mailto:lucywbeck@gmail.com">lucywbeck@gmail.com</a></li>
+            <li><a href="https://github.com/lucywbeck">github.com/lucywbeck</a></li>
+            <li><a href="https://www.linkedin.com/in/lucywbeck/">linkedin.com/in/lucywbeck</a></li>
+          </ul>
+        </div>
       </footer>
     </main>
   </body>

@@ -13,12 +13,19 @@ https://coolors.co/32292f-99e1d9-f0f7f4-70abaf-705d56
 ------------------------------------------------------------*/
 body {
     color: #32292fff;
+    margin: 0;
+    padding: 0;
 }
 img {
     width: 300px;
 }
 a:hover {
     text-decoration: none;
+}
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
 }
 
 
