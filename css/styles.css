@@ -11,16 +11,38 @@ https://coolors.co/32292f-99e1d9-f0f7f4-70abaf-705d56
 
 /* Global styles
 ------------------------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
     color: #32292fff;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5
 }
 img {
     width: 300px;
 }
 a:hover {
     text-decoration: none;
+}
+h1 {
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: 'Oxygen', sans-serif;
 }
 .content-wrap {
   width: 800px;
@@ -34,11 +56,18 @@ a:hover {
 header {
     background: #99e1d9ff;
 }
+.introduction {
+  font-size: 20px;
+  text-align: center;
+}
 
 /* Projects
 ------------------------------------------------------------*/
 .projects {
     background: #f0f7f4ff;
+}
+.project-item img {
+  float: left;
 }
 
 /* Work Experience
