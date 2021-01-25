@@ -66,14 +66,23 @@ header {
 .projects {
     background: #f0f7f4ff;
 }
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px dashed
+}
 .project-item img {
   float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#projects-intro {
+  text-align: center;
 }
 
 /* Work Experience
 ------------------------------------------------------------*/
 .work-experience {
-    background: #70abafff;
+    background: #99e1d9ff;
 }
 
 /* Education

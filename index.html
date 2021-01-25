@@ -15,7 +15,6 @@
         <div class="content-wrap">
           <h1>Lucy Beck</h1>
           <h2>Computer Science Student at Cornell University</h2>
-
           <p class="introduction">As an undergraduate student studying computer science at Cornell University,
               my technical skills include extensive knowledge of object-oriented programming and
               graphical user interfaces (GUIs). I also have experience in web design and version control.</p>
@@ -26,10 +25,10 @@
       <section class="projects">
         <div class="content-wrap">
           <h2>Featured Projects</h2>
-          <p>View selected projects below. More information can be found at <a href="https://github.com/lucywbeck">github.com/lucywbeck</a>.</p>
+          <p id="projects-intro">View selected projects below. More information can be found at <a href="https://github.com/lucywbeck">github.com/lucywbeck</a>.</p>
           <section class="project-item">
             <h3>Photo Editor</h3>
-            <img src="project-thumbnail.png" alt="Photo Editor image">
+            <img src="images/photo-editor.png" alt="Photo Editor image">
             <p>Photo Editor allows the user to upload any PNG file and adjust brightness, contrast,
               warmth, saturation, and apply a variety of photo filters such as Vignette, Black and White,
               Invert, Solarise, and Pixelize. I developed a GUI that displays the original image and the
@@ -41,13 +40,16 @@
 
           <section class="project-item">
             <h3>Froggo</h3>
-            <img src="project-thumbnail.png" alt="Froggo image">
+            <img src="images/froggo.png" alt="Froggo image">
             <p>Froggo is a clone of the 1981 arcade game Frogger. The modern day equivalent
-              to Frogger is Crossy Road. I developed a graphical user interface (GUI) that receives
-              user input to support interactive game play. I designed multiple levels that support
-              JSON files, audio, 2D graphics with hitboxes, and scheduled events. I utilized property
-              decorators, generators, and coroutines to create model classes that support 2D animation.
-              I implemented the model-view-controller design pattern to organize code written in Python.</p>
+              to Frogger is Crossy Road. To play Froggo, use the up, down, left, and right arrow keys to
+              move the frog. The frog will lose a life if it is hit by a car, drowns in the water,
+              or is carried offscreen by a moving turtle or log. If the frog lands on a fly, one life will be
+              added. All lily pads must be occupied by a safe frog to move on to the next level.
+              I designed seven levels that support JSON files, audio, 2D graphics with hitboxes,
+              and scheduled events. I also utilized property decorators, generators, and coroutines to
+              create model classes that support 2D animation. All code is written in Python and follows
+              the model-view-controller design pattern.</p>
           </section>
         </div>
       </section>
