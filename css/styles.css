@@ -90,6 +90,24 @@ header {
 .eduction {
     background: #f0f7f4ff;
 }
+.eduction h3 {
+    margin-top: 40px
+}
+#cornell-logo {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#bhs-logo {
+  height: 150px;
+  width: 94px;
+  float: left;
+  margin-left: 30px;
+  margin-right: 46px;
+  margin-bottom: 20px;
+}
 
 /* Contact Info
 ------------------------------------------------------------*/
