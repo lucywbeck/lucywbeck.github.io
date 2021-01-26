@@ -31,13 +31,10 @@ img {
 a:hover {
     text-decoration: none;
 }
-h1 {
-  font-size: 60px;
-  margin: 0;
-  text-align: center;
+h1, h2, h3 {
+  font-family: 'Oxygen', sans-serif;
 }
-h2 {
-  font-size: 30px;
+h1, h2 {
   margin: 0;
   text-align: center;
 }
@@ -50,15 +47,12 @@ h3 + p {
 h3 ~ p {
   margin: 0;
 }
-h1, h2, h3 {
-  font-family: 'Oxygen', sans-serif;
-}
 .content-wrap {
-  width: 800px;
+  max-width: 800px;
+  width: 85%;
   margin: 0 auto;
   padding: 60px 0;
 }
-
 
 /* Profile
 ------------------------------------------------------------*/
@@ -66,7 +60,6 @@ header {
     background: #99e1d9ff;
 }
 .introduction {
-  font-size: 20px;
   text-align: center;
 }
 
@@ -74,11 +67,6 @@ header {
 ------------------------------------------------------------*/
 .projects {
     background: #f0f7f4ff;
-}
-.projects img {
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 20px;
 }
 #projects-intro {
   text-align: center;
@@ -89,21 +77,11 @@ header {
 .professional {
     background: #b2aca9;
 }
-.job-item {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 10px;
-}
 
 /* Education
 ------------------------------------------------------------*/
 .leadership {
   background: #99e1d9ff;
-}
-.leadership-item {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 10px;
 }
 
 /* Education
@@ -111,11 +89,6 @@ header {
 .eduction {
     background: #f0f7f4ff;
   }
-.education-item {
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-  column-gap: 10px;
-}
 #cornell {
   margin-bottom: 30px;
 }
@@ -144,4 +117,38 @@ footer {
 .contact-list a {
   padding: 15px;
   display: inline-block;
+}
+
+/* Responsive
+------------------------------------------------------------*/
+@media screen and (min-width:630px){
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .introduction {
+    font-size: 20px;
+  }
+  .projects img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+  }
+  .leadership-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+  }
+  .education-item {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    column-gap: 10px;
+  }
 }
