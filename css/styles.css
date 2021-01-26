@@ -114,11 +114,11 @@ header {
 
 /* Professional Experience
 ------------------------------------------------------------*/
-#experience {
+#professional {
   background: #b2aca9;
 }
 
-/* Education
+/* Leadership Experience
 ------------------------------------------------------------*/
 #leadership {
   background: #99e1d9ff;
@@ -145,7 +145,7 @@ header {
 
 /* Contact Info
 ------------------------------------------------------------*/
-footer {
+#contact {
   background: #b2aca9;
 }
 .contact-list {
@@ -157,6 +157,16 @@ footer {
 .contact-list a {
   padding: 15px;
   display: inline-block;
+}
+
+/* Copyright
+------------------------------------------------------------*/
+footer {
+  background: #32292fff;
+  color: #f0f7f4ff;
+  padding: 19px;
+  justify-content: center;
+  text-align: center;
 }
 
 /* Responsive
