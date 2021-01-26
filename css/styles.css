@@ -66,10 +66,6 @@ header {
 .projects {
     background: #f0f7f4ff;
 }
-.projects section {
-  /*overflow: auto;*/
-  /*border-bottom: 1px dashed*/
-}
 .projects img {
   float: left;
   margin-right: 20px;
@@ -79,10 +75,26 @@ header {
   text-align: center;
 }
 
-/* Work Experience
+/* Professional Experience
 ------------------------------------------------------------*/
-.work-experience {
-    background: #99e1d9ff;
+.professional {
+    background: #b2aca9;
+}
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10px
+}
+
+/* Education
+------------------------------------------------------------*/
+.leadership {
+  background: #99e1d9ff;
+}
+.leadership-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10px
 }
 
 /* Education
