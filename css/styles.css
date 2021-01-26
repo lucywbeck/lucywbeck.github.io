@@ -5,7 +5,7 @@ https://coolors.co/32292f-99e1d9-f0f7f4-70abaf-705d56
 --middle-blue-green: #99e1d9ff;
 --mint-cream: #f0f7f4ff;
 --cadet-blue: #70abafff;
---middle-grey: #8a817cff;
+--silver-chalice: #b2aca9;
 */
 
 
@@ -66,11 +66,11 @@ header {
 .projects {
     background: #f0f7f4ff;
 }
-.project-item {
-  overflow: hidden;
-  border-bottom: 1px dashed
+.projects section {
+  /*overflow: auto;*/
+  /*border-bottom: 1px dashed*/
 }
-.project-item img {
+.projects img {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -112,5 +112,15 @@ header {
 /* Contact Info
 ------------------------------------------------------------*/
 footer {
-    background: #8a817cff;
+    background: #b2aca9;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
 }
