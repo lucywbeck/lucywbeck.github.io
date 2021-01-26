@@ -4,7 +4,7 @@ https://coolors.co/32292f-99e1d9-f0f7f4-70abaf-705d56
 --black-coffee: #32292fff;
 --middle-blue-green: #99e1d9ff;
 --mint-cream: #f0f7f4ff;
---cadet-blue: #70abafff;
+--lavender-gray: #d9d2daff;
 --silver-chalice: #b2aca9;
 */
 
@@ -108,6 +108,9 @@ header {
 #projects-intro {
   text-align: center;
 }
+.projects-item p {
+  font-style: normal;
+}
 
 /* Professional Experience
 ------------------------------------------------------------*/
@@ -158,9 +161,24 @@ footer {
 
 /* Responsive
 ------------------------------------------------------------*/
-@media screen and (max-width:860px){
+@media screen and (max-width:859px){
   .nav-item {
     display: none;
+  }
+}
+@media screen and (min-width:860px){
+  .projects-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 30px;
+    margin: 50px 0px;
+    background: #d9d2daff;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey;
+  }
+  .projects-item img {
+    margin-top: 30px;
   }
 }
 @media screen and (min-width:630px){
@@ -180,7 +198,7 @@ footer {
   }
   .job-item {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.7fr;
     column-gap: 10px;
   }
   .leadership-item {
