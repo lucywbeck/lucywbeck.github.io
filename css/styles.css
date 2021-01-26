@@ -41,6 +41,15 @@ h2 {
   margin: 0;
   text-align: center;
 }
+h3 {
+  margin-bottom: 0;
+}
+h3 + p {
+  font-style: italic;
+}
+h3 ~ p {
+  margin: 0;
+}
 h1, h2, h3 {
   font-family: 'Oxygen', sans-serif;
 }
@@ -83,7 +92,7 @@ header {
 .job-item {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  column-gap: 10px
+  column-gap: 10px;
 }
 
 /* Education
@@ -94,31 +103,31 @@ header {
 .leadership-item {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  column-gap: 10px
+  column-gap: 10px;
 }
 
 /* Education
 ------------------------------------------------------------*/
 .eduction {
     background: #f0f7f4ff;
+  }
+.education-item {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  column-gap: 10px;
 }
-.eduction h3 {
-    margin-top: 40px
+#cornell {
+  margin-bottom: 30px;
 }
 #cornell-logo {
-  height: 150px;
-  width: 150px;
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
 }
 #bhs-logo {
-  height: 150px;
-  width: 94px;
-  float: left;
-  margin-left: 30px;
-  margin-right: 46px;
-  margin-bottom: 20px;
+  height: 100px;
+  width: 63px;
+  margin-left: 13px;
 }
 
 /* Contact Info
