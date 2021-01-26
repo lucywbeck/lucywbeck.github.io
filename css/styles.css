@@ -13,6 +13,7 @@ https://coolors.co/32292f-99e1d9-f0f7f4-70abaf-705d56
 ------------------------------------------------------------*/
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -54,10 +55,46 @@ h3 ~ p {
   padding: 60px 0;
 }
 
+/* Navigation
+------------------------------------------------------------*/
+.navigation {
+  background: #32292fff;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 30px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.navigation a {
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+  color: #f0f7f4ff;
+}
+.navigation a:hover {
+  opacity: 0.5
+}
+.logo {
+  flex: 1;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 35px;
+  color: #f0f7f4ff;
+  cursor: default;
+}
+
 /* Profile
 ------------------------------------------------------------*/
 header {
-    background: #99e1d9ff;
+  background: #99e1d9ff;
 }
 .introduction {
   text-align: center;
@@ -65,8 +102,8 @@ header {
 
 /* Projects
 ------------------------------------------------------------*/
-.projects {
-    background: #f0f7f4ff;
+#projects {
+  background: #f0f7f4ff;
 }
 #projects-intro {
   text-align: center;
@@ -74,20 +111,20 @@ header {
 
 /* Professional Experience
 ------------------------------------------------------------*/
-.professional {
-    background: #b2aca9;
+#experience {
+  background: #b2aca9;
 }
 
 /* Education
 ------------------------------------------------------------*/
-.leadership {
+#leadership {
   background: #99e1d9ff;
 }
 
 /* Education
 ------------------------------------------------------------*/
-.eduction {
-    background: #f0f7f4ff;
+#eduction {
+  background: #f0f7f4ff;
   }
 #cornell {
   margin-bottom: 30px;
@@ -106,7 +143,7 @@ header {
 /* Contact Info
 ------------------------------------------------------------*/
 footer {
-    background: #b2aca9;
+  background: #b2aca9;
 }
 .contact-list {
   list-style-type: none;
@@ -121,6 +158,11 @@ footer {
 
 /* Responsive
 ------------------------------------------------------------*/
+@media screen and (max-width:860px){
+  .nav-item {
+    display: none;
+  }
+}
 @media screen and (min-width:630px){
   h1 {
     font-size: 60px;
@@ -131,7 +173,7 @@ footer {
   .introduction {
     font-size: 20px;
   }
-  .projects img {
+  #projects img {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
