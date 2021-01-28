@@ -78,7 +78,7 @@ h3 ~ p {
   color: #f0f7f4ff;
 }
 .navigation a:hover {
-  opacity: 0.5
+  opacity: 0.7
 }
 .logo {
   flex: 1;
@@ -111,6 +111,9 @@ header {
 }
 .projects-item p {
   font-style: normal;
+}
+.projects-link {
+  display: flex;
 }
 
 /* Professional Experience
@@ -155,9 +158,35 @@ header {
   display: flex;
   justify-content: center;
 }
-.contact-list a {
-  padding: 15px;
-  display: inline-block;
+
+/* Icons
+------------------------------------------------------------*/
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-github {
+  background: black;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
 }
 
 /* Copyright
@@ -181,7 +210,7 @@ footer {
   .projects-item {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    column-gap: 30px;
+    column-gap: 5px;
     margin: 50px 0px; /* add space between projects */
     background: #d9d2daff;
     padding: 30px;
