@@ -7,6 +7,13 @@ https://coolors.co/32292f-99e1d9-f0f7f4-70abaf-705d56
 --lavender-gray: #d9d2daff;
 --silver-chalice: #b2aca9;
 */
+/*
+CSS HEX
+--black-coffee: #32292fff;
+--middle-blue-green: #99e1d9ff;
+--light-cyan: #d1f0edff;
+--white: white;
+*/
 
 
 /* Global styles
@@ -14,9 +21,6 @@ https://coolors.co/32292f-99e1d9-f0f7f4-70abaf-705d56
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
 }
 body {
     color: #32292fff;
@@ -26,8 +30,8 @@ body {
     font-size: 16px;
     line-height: 1.5
 }
-a:hover {
-    text-decoration: none;
+h1 {
+  font-size: 60px;
 }
 h1, h2, h3 {
   font-family: 'Oxygen', sans-serif;
@@ -96,18 +100,42 @@ header {
 .introduction {
   text-align: center;
 }
+header button {
+  background: white;
+  display: block;
+  margin: auto;
+  padding: 15px;
+  border-radius: 25px; /* round corners */
+  text-align: center;
+}
+header a {
+  color: #32292fff;
+  text-decoration: none;
+}
+header a:hover {
+    opacity: 0.7;
+}
 
 /* Projects
 ------------------------------------------------------------*/
 #projects {
-  background: #f0f7f4ff;
+  background: white;
 }
 #projects-intro {
   text-align: center;
 }
+#projects-intro a:hover {
+    text-decoration: none;
+}
+.project-wrap {
+  max-width: 950px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
 .projects-item img {
   width: 300px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .projects-item p {
   font-style: normal;
@@ -119,19 +147,20 @@ header {
 /* Professional Experience
 ------------------------------------------------------------*/
 #professional {
-  background: #b2aca9;
+  background: #d1f0edff;
 }
+
 
 /* Leadership Experience
 ------------------------------------------------------------*/
 #leadership {
-  background: #99e1d9ff;
+  background: white;
 }
 
 /* Education
 ------------------------------------------------------------*/
 #eduction {
-  background: #f0f7f4ff;
+  background: #d1f0edff;
   }
 #cornell {
   margin-bottom: 30px;
@@ -150,7 +179,7 @@ header {
 /* Contact Info
 ------------------------------------------------------------*/
 #contact {
-  background: #b2aca9;
+  background: white;D
 }
 .contact-list {
   list-style-type: none;
@@ -163,7 +192,7 @@ header {
 ------------------------------------------------------------*/
 .fa {
   padding: 10px;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   text-decoration: none;
   margin: 5px 10px;
@@ -208,40 +237,40 @@ footer {
 }
 @media screen and (min-width:860px){
   .projects-item {
-    display: grid;
     grid-template-columns: 1fr 3fr;
-    column-gap: 5px;
-    margin: 50px 0px; /* add space between projects */
-    background: #d9d2daff;
-    padding: 30px;
-    border-radius: 25px; /* round corners */
-    box-shadow: 10px 10px 5px grey;
+    column-gap: 20px;
   }
 }
 @media screen and (min-width:630px){
-  h1 {
-    font-size: 60px;
-  }
   h2 {
     font-size: 30px;
   }
   .introduction {
     font-size: 20px;
   }
-  #projects img {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
+  .projects-item {
+    display: grid;
+    margin: 50px 0px; /* add space between projects */
+    background: #d1f0edff;
+    padding: 30px;
+    box-shadow: 10px 10px 5px grey;
   }
   .job-item {
     display: grid;
     grid-template-columns: 1fr 1.7fr;
-    column-gap: 10px;
+    margin: 50px 0px; /* add space between projects */
+    background: white;
+    padding: 30px;
+    box-shadow: 10px 10px 5px grey;
   }
   .leadership-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 10px;
+    margin: 50px 0px; /* add space between projects */
+    background: #d1f0edff;
+    padding: 30px;
+    box-shadow: 10px 10px 5px grey;
   }
   .education-item {
     display: grid;
