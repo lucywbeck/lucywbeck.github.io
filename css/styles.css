@@ -1,17 +1,8 @@
 /*
-COLOR PALETTE
-https://coolors.co/32292f-99e1d9-f0f7f4-70abaf-705d56
---black-coffee: #32292fff;
---middle-blue-green: #99e1d9ff;
---mint-cream: #f0f7f4ff;
---lavender-gray: #d9d2daff;
---silver-chalice: #b2aca9;
-*/
-/*
 CSS HEX
 --black-coffee: #32292fff;
---middle-blue-green: #99e1d9ff;
---light-cyan: #d1f0edff;
+--electric-blue: #79ede9ff;
+--celeste: #b7f5f3ff;
 --white: white;
 */
 
@@ -95,7 +86,7 @@ h3 ~ p {
 /* Profile
 ------------------------------------------------------------*/
 header {
-  background: #99e1d9ff;
+  background: #79ede9
 }
 .introduction {
   text-align: center;
@@ -147,7 +138,7 @@ header a:hover {
 /* Professional Experience
 ------------------------------------------------------------*/
 #professional {
-  background: #d1f0edff;
+  background: #b7f5f3ff;
 }
 
 
@@ -160,7 +151,7 @@ header a:hover {
 /* Education
 ------------------------------------------------------------*/
 #eduction {
-  background: #d1f0edff;
+  background: #b7f5f3ff;
   }
 #cornell {
   margin-bottom: 30px;
@@ -251,7 +242,7 @@ footer {
   .projects-item {
     display: grid;
     margin: 50px 0px; /* add space between projects */
-    background: #d1f0edff;
+    background: #b7f5f3ff;
     padding: 30px;
     box-shadow: 10px 10px 5px grey;
   }
@@ -268,7 +259,7 @@ footer {
     grid-template-columns: 1fr 2fr;
     column-gap: 10px;
     margin: 50px 0px; /* add space between projects */
-    background: #d1f0edff;
+    background: #b7f5f3ff;
     padding: 30px;
     box-shadow: 10px 10px 5px grey;
   }
