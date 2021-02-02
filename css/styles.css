@@ -140,7 +140,7 @@ header a:hover {
 /* Professional Experience
 ------------------------------------------------------------*/
 #professional {
-  background: #b7f5f3ff;
+  background: #79ede9
 }
 
 
@@ -153,8 +153,14 @@ header a:hover {
 /* Education
 ------------------------------------------------------------*/
 #eduction {
-  background: #b7f5f3ff;
+  background: #79ede9
   }
+.eduction-wrap {
+  max-width: 600px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
 #cornell {
   margin-bottom: 30px;
 }
