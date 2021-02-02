@@ -91,17 +91,19 @@ header {
 .introduction {
   text-align: center;
 }
-header button {
-  background: white;
-  display: block;
-  margin: auto;
-  padding: 15px;
-  border-radius: 25px; /* round corners */
-  text-align: center;
-}
 header a {
   color: #32292fff;
+  background: transparent;
+  display: block; /* center button */
+  margin: auto; /* center button */
+  padding: 10px;
+  border-style: solid;
+  border-color: #32292fff;
+  border-width: 3px;
+  border-radius: 25px; /* round corners */
+  text-align: center;
   text-decoration: none;
+  width: 10em;
 }
 header a:hover {
     opacity: 0.7;
