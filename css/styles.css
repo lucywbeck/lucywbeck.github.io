@@ -150,10 +150,33 @@ header a:hover {
   background: white;
 }
 
+/* Skills
+------------------------------------------------------------*/
+#skills {
+  background: #79ede9;
+  }
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  white-space: nowrap;
+  font-family: 'Oxygen', sans-serif;
+}
+.skills-list li {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  background: white;
+  box-shadow: 5px 5px 5px grey;
+}
+
 /* Education
 ------------------------------------------------------------*/
 #eduction {
-  background: #79ede9
+  background: white;
   }
 .eduction-wrap {
   max-width: 600px;
@@ -178,7 +201,7 @@ header a:hover {
 /* Contact Info
 ------------------------------------------------------------*/
 #contact {
-  background: white;D
+  background: #79ede9;
 }
 .contact-list {
   list-style-type: none;
