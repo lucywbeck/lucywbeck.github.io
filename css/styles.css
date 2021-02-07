@@ -155,6 +155,12 @@ header a:hover {
 #skills {
   background: #79ede9;
   }
+.skills-wrap {
+  max-width: 600px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
 .skills-list {
   list-style-type: none;
   padding: 0;
