@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import HomePage from "./components/HomePage/HomePage";
+import ExperiencePage from "./components/ExperiencePage/ExperiencePage";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route exact path="/" element={<HomePage/>} />
+        <Route exact path="/experience" element={<ExperiencePage/>} />
       </Routes>
     </div>
   );
