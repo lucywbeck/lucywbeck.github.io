@@ -1,4 +1,5 @@
 import "./HomePage.css"
+import AboutPage from "../AboutPage/AboutPage";
 
 export default function HomePage() {
     return (
@@ -13,10 +14,11 @@ export default function HomePage() {
             }}>
             <div className="banner-contents">
                 <h1>Lucy Beck</h1>
-                <h2>Aspiring Software Engineer</h2>
+                <h2>Software Engineer and Content Creator</h2>
                 <a className="download-resume-btn" href="resources/LUCY_BECK_RESUME.pdf" target="_blank">View Resume</a>  
             </div>
         </div>
+        <AboutPage/>
       </>
     );
   }
