@@ -6,7 +6,7 @@ export default function ExperiencePage() {
         <div className="experience">
             <h1>Experience</h1>
 
-            <div class="job-item">
+            <div>
                 <h2>Software Engineer Intern</h2>
                 <p>Intuit - Mountain View, CA</p>
                 <p>Jan 2022 - Jun 2022</p>
@@ -18,7 +18,7 @@ export default function ExperiencePage() {
                     </ul>
             </div>
             
-            <div class="job-detals">
+            <div>
               <h3>Software Engineer Intern</h3>
               <p>Fidelity Investments - Durham, NC</p>
               <p>Jun 2021 - Aug 2021</p>
@@ -30,7 +30,7 @@ export default function ExperiencePage() {
               </ul>
             </div>
 
-            <div class="job-detals">
+            <div>
               <h3>Software Engineer Intern</h3>
               <p>Reworld Inc - Seattle, WA</p>
               <p>Feb 2021 - Mar 2021</p>

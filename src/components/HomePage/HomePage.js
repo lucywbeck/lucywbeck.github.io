@@ -4,6 +4,7 @@ import Resume from "../../assets/LUCY_BECK_RESUME.pdf"
 import AboutPage from "../AboutPage/AboutPage";
 import ExperiencePage from '../ExperiencePage/ExperiencePage';
 import PortfolioPage from '../PortfolioPage/PortfolioPage';
+import ContactPage from '../ContactPage/ContactPage';
 
 export default function HomePage() {
     const myStyle = { 
@@ -25,6 +26,7 @@ export default function HomePage() {
         <AboutPage/>
         <ExperiencePage/>
         <PortfolioPage/>
+        <ContactPage/>
       </>
     );
   }

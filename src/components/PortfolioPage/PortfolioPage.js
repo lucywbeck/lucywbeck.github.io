@@ -10,8 +10,8 @@ export default function PortfolioPage() {
         <>
             <div className="portfolio">
                 <h1>Portfolio</h1>
-                <div className="container1">
-                    <Card style={{ width: '18rem' }}>
+                <div className="portfolio-container">
+                    <Card style={{ width: '20rem' }}>
                         <Card.Img variant="top" src={image3} />
                         <Card.Body>
                             <Card.Title>NUProjects</Card.Title>
@@ -22,7 +22,7 @@ export default function PortfolioPage() {
                         </Card.Body>
                     </Card>
 
-                    <Card style={{ width: '18rem' }}>
+                    <Card style={{ width: '20rem' }}>
                         <Card.Img variant="top" src={image1} />
                         <Card.Body>
                             <Card.Title>Challenge with Friends</Card.Title>
@@ -33,7 +33,7 @@ export default function PortfolioPage() {
                         </Card.Body>
                     </Card>
 
-                    <Card style={{ width: '18rem' }}>
+                    <Card style={{ width: '20rem' }}>
                         <Card.Img variant="top" src={image2} />
                         <Card.Body>
                             <Card.Title>Froggo</Card.Title>

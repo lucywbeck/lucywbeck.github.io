@@ -1,0 +1,20 @@
+.contact {
+    text-align: left;
+    margin: 5rem;
+}
+
+.contact-container {
+    margin: 0rem 10rem;
+    padding: 2rem;
+    border-radius: 2em;
+    background-color: lightgrey
+}
+
+@media (max-width: 800px) {
+    .contact {
+        margin: 1em;
+    }
+    .contact-container {
+        margin: 0rem;
+    }
+  }

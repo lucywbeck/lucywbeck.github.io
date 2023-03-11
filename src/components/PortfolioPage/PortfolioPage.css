@@ -3,7 +3,7 @@
     margin: 5rem;
 }
 
-.container1 {
+.portfolio-container {
     display: flex;
     justify-content: space-between;
 }
@@ -12,7 +12,7 @@
     .portfolio {
         margin: 1rem;
     }
-    .container1 {
+    .portfolio-container {
         flex-direction: column;
     }
   }
