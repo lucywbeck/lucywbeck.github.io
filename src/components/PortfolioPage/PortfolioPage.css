@@ -1,0 +1,18 @@
+.portfolio {
+    text-align: left;
+    margin: 5rem;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+    .portfolio {
+        margin: 1rem;
+    }
+    .container1 {
+        flex-direction: column;
+    }
+  }

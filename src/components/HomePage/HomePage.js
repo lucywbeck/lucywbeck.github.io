@@ -3,6 +3,7 @@ import "./HomePage.css"
 import Resume from "../../assets/LUCY_BECK_RESUME.pdf"
 import AboutPage from "../AboutPage/AboutPage";
 import ExperiencePage from '../ExperiencePage/ExperiencePage';
+import PortfolioPage from '../PortfolioPage/PortfolioPage';
 
 export default function HomePage() {
     const myStyle = { 
@@ -23,6 +24,7 @@ export default function HomePage() {
         </div>
         <AboutPage/>
         <ExperiencePage/>
+        <PortfolioPage/>
       </>
     );
   }
