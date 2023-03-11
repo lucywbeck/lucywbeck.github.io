@@ -3,10 +3,8 @@ import "./ExperiencePage.css"
 export default function ExperiencePage() {
     return (
         <>
-        <div className="container">
+        <div className="experience">
             <h1>Experience</h1>
-            <p id="professional-intro">A full list of my professional experiences can be found on my
-                <a href="https://www.linkedin.com/in/lucywbeck" target="_blank"> LinkedIn</a>.</p>
 
             <div class="job-item">
                 <h2>Software Engineer Intern</h2>

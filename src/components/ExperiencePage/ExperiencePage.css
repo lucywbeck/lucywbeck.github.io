@@ -1,3 +1,10 @@
-.container {
+.experience {
     text-align: left;
+    margin: 5rem;
 }
+
+@media (max-width: 800px) {
+    .experience {
+        margin: 1rem;
+    }
+  }
