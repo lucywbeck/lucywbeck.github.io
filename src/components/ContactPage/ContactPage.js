@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import "./ContactPage.css"
 
 export default function ContactPage() {
+    // TODO
     const [value, setValue] = useState("");
 
     const onInput = ({target:{value}}) => setValue(value);
@@ -19,6 +20,7 @@ export default function ContactPage() {
             <div className="contact">
                 <h1>Contact</h1>
                 <div className="contact-container">
+                <div className="form-container">
                 <Form onSubmit={onFormSubmit}>
                     <Form.Group className="mb-3">
                         <Form.Label>Name</Form.Label>
@@ -26,7 +28,7 @@ export default function ContactPage() {
                             placeholder="Enter name" 
                             type="text"
                             value={value}
-                            onChange={onInput}
+                            onChange={({target:{value}}) => setValue(value)}
                             required
                         />
                     </Form.Group>
@@ -59,6 +61,7 @@ export default function ContactPage() {
                         Submit
                     </Button>
                 </Form>
+                </div>
                 </div>
             </div>
         </>

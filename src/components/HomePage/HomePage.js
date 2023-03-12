@@ -20,7 +20,7 @@ export default function HomePage() {
       <>
         <div className="home" style={myStyle}>
             <h1>Lucy Beck</h1>
-            <h2>Software Engineer and Content Creator</h2>
+            <h2>Aspiring Software Engineer</h2>
             <Button className="resume-button" variant="outline-light" href={Resume} target="_blank">View Resume</Button>{' '}
         </div>
         <AboutPage/>

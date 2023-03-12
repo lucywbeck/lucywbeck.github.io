@@ -1,20 +1,36 @@
 .contact {
+    margin: 0;
+    padding: 5rem;
     text-align: left;
-    margin: 5rem;
+    background-color: #f8f9fa;
 }
 
 .contact-container {
-    margin: 0rem 10rem;
-    padding: 2rem;
-    border-radius: 2em;
-    background-color: lightgrey
+    margin: 0;
+    padding: 3rem 0rem;
 }
 
 @media (max-width: 800px) {
     .contact {
-        margin: 1em;
+        padding: 1rem;
     }
     .contact-container {
-        margin: 0rem;
+        padding: 1rem 0rem;
+    }
+    .form-container {
+        margin: 0;
+        padding: 0;
     }
   }
+
+.form-container {
+    margin: auto;
+    padding: 2rem;
+    max-width: 800px;
+    background-color: white;
+    /* border */
+    border-color: gray;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 2em;
+}
