@@ -2,66 +2,88 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import "./ContactPage.css"
+import { useForm } from '@formspree/react';
 
-export default function ContactPage() {
-    // TODO
-    const [value, setValue] = useState("");
+function ContactForm() {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [subject, setSubject] = useState("");
+    const [message, setMessage] = useState("");
+    const [state, handleSubmit] = useForm("mjvlzebb");
 
-    const onInput = ({target:{value}}) => setValue(value);
-
-    const onFormSubmit = e => {
-          e.preventDefault()
-          console.log(value)
-          setValue("")
-        }
-
+    if (state.succeeded) {
+        return <p style={{textAlign: "center"}}>Message sent!</p>;
+    }
     return (
-        <>
-            <div id="contact" className="contact">
-                <h1>Contact</h1>
-                <div className="contact-container">
-                <div className="form-container">
-                <Form onSubmit={onFormSubmit}>
+        <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3">
-                        <Form.Label>Name</Form.Label>
+                        <Form.Label >Name</Form.Label>
                         <Form.Control 
                             placeholder="Enter name" 
                             type="text"
-                            value={value}
-                            onChange={({target:{value}}) => setValue(value)}
+                            value={name}
+                            onChange={({target:{value}}) => setName(value)}
                             required
+                            name="name" // for formspree
                         />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" />
+                        <Form.Label>Email</Form.Label>
+                        <Form.Control 
+                            type="email" 
+                            placeholder="Enter email" 
+                            value={email}
+                            onChange={({target:{value}}) => setEmail(value)}
+                            required
+                            name="email" // for formspree
+                        />
                         <Form.Text className="text-muted">
                         </Form.Text>
                     </Form.Group>
 
                     <Form.Group className="mb-3">
                         <Form.Label>Subject</Form.Label>
-                        <Form.Control placeholder="Enter subject" />
+                        <Form.Control 
+                            placeholder="Enter subject" 
+                            value={subject}
+                            onChange={({target:{value}}) => setSubject(value)}
+                            required
+                            name="subject" // for formspree
+                        />
                         <Form.Text className="text-muted">
                         </Form.Text>
                     </Form.Group>
 
                     <Form.Group className="mb-3">
                         <Form.Label>Message</Form.Label>
-                        <Form.Control placeholder="Enter message" />
+                        <Form.Control 
+                            placeholder="Enter message" 
+                            value={message}
+                            onChange={({target:{value}}) => setMessage(value)}
+                            required
+                            name="message" // for formspree
+                        />
                         <Form.Text className="text-muted">
                         </Form.Text>
                     </Form.Group>
-
-                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                        <Form.Check type="checkbox" label="This message is urgent!" />
-                    </Form.Group>
+                    
                     <Button variant="primary" type="submit">
                         Submit
                     </Button>
                 </Form>
-                </div>
+    )
+}
+
+export default function ContactPage() {
+    return (
+        <>
+            <div id="contact" className="contact">
+                <h1>Contact</h1>
+                <div className="contact-container">
+                    <div className="form-container">
+                        <ContactForm />
+                    </div>
                 </div>
             </div>
         </>
