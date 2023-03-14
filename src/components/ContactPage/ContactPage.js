@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import "./ContactPage.css"
 import { useForm } from '@formspree/react';
+import "./ContactPage.css"
 
 function ContactForm() {
     const [name, setName] = useState("");
@@ -58,6 +58,8 @@ function ContactForm() {
                     <Form.Group className="mb-3">
                         <Form.Label>Message</Form.Label>
                         <Form.Control 
+                            as="textarea" 
+                            rows={4}
                             placeholder="Enter message" 
                             value={message}
                             onChange={({target:{value}}) => setMessage(value)}
@@ -84,6 +86,14 @@ export default function ContactPage() {
                     <div className="form-container">
                         <ContactForm />
                     </div>
+                    <div className="button-container">
+                        <Button variant="dark" href="https://www.linkedin.com/in/lucywbeck/" target="_blank">LinkedIn</Button>
+                        <Button variant="dark" href="https://github.com/lucywbeck" target="_blank">Github</Button>
+                        <Button variant="dark" href="https://www.youtube.com/lucywbeck" target="_blank">YouTube</Button>
+                    </div>
+                    <footer style={{textAlign: "center"}}>
+                        <small>&copy; 2023 Lucy Beck. All rights reserved.</small>
+                    </footer>
                 </div>
             </div>
         </>

@@ -34,3 +34,16 @@
     border-width: 0.5px;
     border-radius: 2em;
 }
+
+.button-container {
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button-container > * {
+    margin: 1em;
+    width: 100px;
+  }
