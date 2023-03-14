@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8776100.css",
-    "main.js": "/static/js/main.0808f435.js",
+    "main.css": "/static/css/main.6957d341.css",
+    "main.js": "/static/js/main.b544cf13.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/squirrel.JPEG": "/static/media/squirrel.e841c97f81db5b24ea12.JPEG",
     "static/media/nuprojects.JPEG": "/static/media/nuprojects.ac20ff219585c898c581.JPEG",
@@ -11,14 +11,13 @@
     "static/media/challenge-with-friends.png": "/static/media/challenge-with-friends.92d56e85e0898d601573.png",
     "static/media/froggo.png": "/static/media/froggo.22fba7ccbee1541a9603.png",
     "static/media/LUCY_BECK_RESUME.pdf": "/static/media/LUCY_BECK_RESUME.b7b94455eb47d7f62370.pdf",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.f8776100.css.map": "/static/css/main.f8776100.css.map",
-    "main.0808f435.js.map": "/static/js/main.0808f435.js.map",
+    "main.6957d341.css.map": "/static/css/main.6957d341.css.map",
+    "main.b544cf13.js.map": "/static/js/main.b544cf13.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8776100.css",
-    "static/js/main.0808f435.js"
+    "static/css/main.6957d341.css",
+    "static/js/main.b544cf13.js"
   ]
 }
