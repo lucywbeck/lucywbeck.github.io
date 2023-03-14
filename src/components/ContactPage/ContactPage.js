@@ -17,7 +17,7 @@ export default function ContactPage() {
 
     return (
         <>
-            <div className="contact">
+            <div id="contact" className="contact">
                 <h1>Contact</h1>
                 <div className="contact-container">
                 <div className="form-container">

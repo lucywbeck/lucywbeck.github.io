@@ -11,10 +11,10 @@ import image4 from '../../assets/squirrel.JPEG'
 export default function PortfolioPage() {
     return (
         <>
-            <div className="portfolio">
+            <div id="portfolio" className="portfolio">
                 <h1>Portfolio</h1>
                 <div className="portfolio-container">
-                    <Card>
+                    <Card bg="light">
                         <Card.Img variant="top" src={image4} />
                         <Card.Body>
                             <Card.Title>Squirrel</Card.Title>
@@ -25,7 +25,7 @@ export default function PortfolioPage() {
                         </Card.Body>
                     </Card>
 
-                    <Card>
+                    <Card bg="light">
                         <Card.Img variant="top" src={image3} />
                         <Card.Body>
                             <Card.Title>NUProjects</Card.Title>
@@ -36,7 +36,7 @@ export default function PortfolioPage() {
                         </Card.Body>
                     </Card>
 
-                    <Card>
+                    <Card bg="light">
                         <Card.Img variant="top" src={image2} />
                         <Card.Body>
                             <Card.Title>Challenge with Friends</Card.Title>
@@ -47,7 +47,7 @@ export default function PortfolioPage() {
                         </Card.Body>
                     </Card>
 
-                    <Card>
+                    <Card bg="light">
                         <Card.Img variant="top" src={image15} />
                         <Card.Body>
                             <Card.Title>Aliens Hate Avocados</Card.Title>
@@ -57,7 +57,7 @@ export default function PortfolioPage() {
                         </Card.Body>
                     </Card>
 
-                    <Card>
+                    <Card bg="light">
                         <Card.Img variant="top" src={image1} />
                         <Card.Body>
                             <Card.Title>Froggo</Card.Title>
@@ -68,7 +68,7 @@ export default function PortfolioPage() {
                         </Card.Body>
                     </Card>
 
-                    <Card>
+                    <Card bg="light">
                         <Card.Img variant="top" src={image0} />
                         <Card.Body>
                             <Card.Title>Photo Editor</Card.Title>

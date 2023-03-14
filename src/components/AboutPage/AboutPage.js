@@ -8,7 +8,7 @@ import Headshot from "../../assets/LUCY_BECK_HEADSHOT.jpeg"
 export default function AboutPage() {
     return (
       <>
-        <div className="about">
+        <div id="about" className="about">
           <h1>About</h1>
           <div className="about-container">
             <div className="container2-1">
