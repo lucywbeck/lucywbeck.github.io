@@ -1,9 +1,5 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./NavBar.css"
-import AboutPage from "../AboutPage/AboutPage";
-import ExperiencePage from '../ExperiencePage/ExperiencePage';
-import PortfolioPage from '../PortfolioPage/PortfolioPage';
-import ContactPage from '../ContactPage/ContactPage';
 
 export default function NavBar() {
   return (
