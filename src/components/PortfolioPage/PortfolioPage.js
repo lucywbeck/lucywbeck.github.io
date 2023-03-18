@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import "./PortfolioPage.css"
@@ -9,6 +10,32 @@ import image3 from '../../assets/nuprojects.JPEG'
 import image4 from '../../assets/squirrel.JPEG'
 
 export default function PortfolioPage() {
+    const navigate = useNavigate();
+
+    const NavigateToPhotoEditor = () => {
+        navigate("/photoeditor");
+    }
+    
+    const NavigateToFroggo = () => {
+        navigate("/froggo");
+    }
+
+    const NavigateToAha = () => {
+        navigate("/aha");
+    }
+
+    const NavigateToCwf = () => {
+        navigate("/cwf");
+    }
+
+    const NavigateToNUProjects = () => {
+        navigate("/nuprojects");
+    }
+
+    const NavigateToSquirrel = () => {
+        navigate("/squirrel");
+    }
+
     return (
         <>
             <div id="portfolio" className="portfolio">
@@ -21,7 +48,7 @@ export default function PortfolioPage() {
                             <Card.Text>
                             A mobile app that suggests new places to explore based on current location, availability, and interests.
                             </Card.Text>
-                            {/* <Button variant="primary">Learn more</Button> */}
+                            <Button variant="primary" onClick={NavigateToSquirrel}>Learn more</Button>
                         </Card.Body>
                     </Card>
 
@@ -32,7 +59,7 @@ export default function PortfolioPage() {
                             <Card.Text>
                             A mobile app for posting and applying to Northwestern University project teams.
                             </Card.Text>
-                            {/* <Button variant="primary">Learn more</Button> */}
+                            <Button variant="primary" onClick={NavigateToNUProjects}>Learn more</Button>
                         </Card.Body>
                     </Card>
 
@@ -43,7 +70,7 @@ export default function PortfolioPage() {
                             <Card.Text>
                             A mobile app in which players compete in completing the maximum number of challenges.
                             </Card.Text>
-                            {/* <Button variant="primary">Learn more</Button> */}
+                            <Button variant="primary" onClick={NavigateToCwf}>Learn more</Button>
                         </Card.Body>
                     </Card>
 
@@ -53,7 +80,7 @@ export default function PortfolioPage() {
                             <Card.Title>Aliens Hate Avocados</Card.Title>
                             <Card.Text>
                             A 3D action game in which players use Avocado Goop Guns to defend cows from enemy UFOs!                            </Card.Text>
-                            {/* <Button variant="primary">Learn more</Button> */}
+                            <Button variant="primary" onClick={NavigateToAha}>Learn more</Button>
                         </Card.Body>
                     </Card>
 
@@ -64,7 +91,7 @@ export default function PortfolioPage() {
                             <Card.Text>
                             A game in which players help frogs get to their homes by crossing busy roads and hazardous waters.
                             </Card.Text>
-                            {/* <Button variant="primary">Learn more</Button> */}
+                            <Button variant="primary" onClick={NavigateToFroggo}>Learn more</Button>
                         </Card.Body>
                     </Card>
 
@@ -75,7 +102,7 @@ export default function PortfolioPage() {
                             <Card.Text>
                             A photo editing app that supports photo enhancements, effects, and a variety of photo filters.
                             </Card.Text>
-                            {/* <Button variant="primary">Learn more</Button> */}
+                            <Button variant="primary" onClick={NavigateToPhotoEditor}>Learn more</Button>
                         </Card.Body>
                     </Card>
                 </div>
