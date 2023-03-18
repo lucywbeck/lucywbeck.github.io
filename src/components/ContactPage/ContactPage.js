@@ -20,11 +20,11 @@ function ContactForm() {
                         <Form.Label >Name</Form.Label>
                         <Form.Control 
                             placeholder="Enter name" 
-                            type="text"
                             value={name}
                             onChange={({target:{value}}) => setName(value)}
                             required
                             name="name" // for formspree
+                            aria-label="name"
                         />
                     </Form.Group>
 
@@ -50,6 +50,7 @@ function ContactForm() {
                             onChange={({target:{value}}) => setSubject(value)}
                             required
                             name="subject" // for formspree
+                            aria-label="subject"
                         />
                         <Form.Text className="text-muted">
                         </Form.Text>
@@ -65,6 +66,7 @@ function ContactForm() {
                             onChange={({target:{value}}) => setMessage(value)}
                             required
                             name="message" // for formspree
+                            aria-label="message"
                         />
                         <Form.Text className="text-muted">
                         </Form.Text>

@@ -15,67 +15,67 @@ export default function PortfolioPage() {
                 <h1>Portfolio</h1>
                 <div className="portfolio-container">
                     <Card bg="light">
-                        <Card.Img variant="top" src={image4} />
+                        <Card.Img variant="top" src={image4} alt="Squirrel" />
                         <Card.Body>
                             <Card.Title>Squirrel</Card.Title>
                             <Card.Text>
                             A mobile app that suggests new places to explore based on current location, availability, and interests.
                             </Card.Text>
-                            <Button variant="primary">Learn more</Button>
+                            {/* <Button variant="primary">Learn more</Button> */}
                         </Card.Body>
                     </Card>
 
                     <Card bg="light">
-                        <Card.Img variant="top" src={image3} />
+                        <Card.Img variant="top" src={image3} alt="NUProjects" />
                         <Card.Body>
                             <Card.Title>NUProjects</Card.Title>
                             <Card.Text>
                             A mobile app for posting and applying to Northwestern University project teams.
                             </Card.Text>
-                            <Button variant="primary">Learn more</Button>
+                            {/* <Button variant="primary">Learn more</Button> */}
                         </Card.Body>
                     </Card>
 
                     <Card bg="light">
-                        <Card.Img variant="top" src={image2} />
+                        <Card.Img variant="top" src={image2} alt="Challenge with Friends" />
                         <Card.Body>
                             <Card.Title>Challenge with Friends</Card.Title>
                             <Card.Text>
                             A mobile app in which players compete in completing the maximum number of challenges.
                             </Card.Text>
-                            <Button variant="primary">Learn more</Button>
+                            {/* <Button variant="primary">Learn more</Button> */}
                         </Card.Body>
                     </Card>
 
                     <Card bg="light">
-                        <Card.Img variant="top" src={image15} />
+                        <Card.Img variant="top" src={image15} alt="Aliens Hate Avocados" />
                         <Card.Body>
                             <Card.Title>Aliens Hate Avocados</Card.Title>
                             <Card.Text>
                             A 3D action game in which players use Avocado Goop Guns to defend cows from enemy UFOs!                            </Card.Text>
-                            <Button variant="primary">Learn more</Button>
+                            {/* <Button variant="primary">Learn more</Button> */}
                         </Card.Body>
                     </Card>
 
                     <Card bg="light">
-                        <Card.Img variant="top" src={image1} />
+                        <Card.Img variant="top" src={image1}alt="Froggo" />
                         <Card.Body>
                             <Card.Title>Froggo</Card.Title>
                             <Card.Text>
                             A game in which players help frogs get to their homes by crossing busy roads and hazardous waters.
                             </Card.Text>
-                            <Button variant="primary">Learn more</Button>
+                            {/* <Button variant="primary">Learn more</Button> */}
                         </Card.Body>
                     </Card>
 
                     <Card bg="light">
-                        <Card.Img variant="top" src={image0} />
+                        <Card.Img variant="top" src={image0} alt="Photo Editor" />
                         <Card.Body>
                             <Card.Title>Photo Editor</Card.Title>
                             <Card.Text>
                             A photo editing app that supports photo enhancements, effects, and a variety of photo filters.
                             </Card.Text>
-                            <Button variant="primary">Learn more</Button>
+                            {/* <Button variant="primary">Learn more</Button> */}
                         </Card.Body>
                     </Card>
                 </div>
