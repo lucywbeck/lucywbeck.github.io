@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cac2e344.css",
+    "main.css": "/static/css/main.df05108c.css",
     "main.js": "/static/js/main.f28ad7af.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/squirrel.JPEG": "/static/media/squirrel.e841c97f81db5b24ea12.JPEG",
@@ -12,12 +12,12 @@
     "static/media/froggo.png": "/static/media/froggo.22fba7ccbee1541a9603.png",
     "static/media/LUCY_BECK_RESUME.pdf": "/static/media/LUCY_BECK_RESUME.b7b94455eb47d7f62370.pdf",
     "index.html": "/index.html",
-    "main.cac2e344.css.map": "/static/css/main.cac2e344.css.map",
+    "main.df05108c.css.map": "/static/css/main.df05108c.css.map",
     "main.f28ad7af.js.map": "/static/js/main.f28ad7af.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cac2e344.css",
+    "static/css/main.df05108c.css",
     "static/js/main.f28ad7af.js"
   ]
 }
