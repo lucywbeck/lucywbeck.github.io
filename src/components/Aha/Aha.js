@@ -4,7 +4,7 @@ export default function Aha() {
     return (
         <>
             <div class="aha">
-                <h1>Aha</h1>
+                <h1>Aliens Hate Avocados</h1>
                 <div class="aha-container">
                     <p>Aliens Hate Avocados is a 3D action shooter video game in which players use Avocado&nbsp;‘Goop&nbsp;Guns’ to defend cows from enemy&nbsp;UFOs! 
                         I formulated <b>algorithms in Lua</b> that simulate velocity, angular velocity, spring force, gravity, collisions, and explosions.

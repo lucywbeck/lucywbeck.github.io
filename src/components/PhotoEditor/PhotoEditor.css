@@ -8,3 +8,13 @@
     margin: 0;
     padding: 3rem 10rem
 }
+
+@media (max-width: 800px) {
+    .photoeditor {
+        padding: 1rem;
+    }
+
+    .photoeditor-container {
+        padding: 1rem 0rem;
+    }
+  }

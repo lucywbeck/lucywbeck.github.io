@@ -8,3 +8,13 @@
     margin: 0;
     padding: 3rem 10rem
 }
+
+@media (max-width: 800px) {
+    .nuprojects {
+        padding: 1rem;
+    }
+
+    .nuprojects-container {
+        padding: 1rem 0rem;
+    }
+  }

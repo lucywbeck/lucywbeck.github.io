@@ -8,3 +8,13 @@
     margin: 0;
     padding: 3rem 10rem
 }
+
+@media (max-width: 800px) {
+    .aha {
+        padding: 1rem;
+    }
+
+    .aha-container {
+        padding: 1rem 0rem;
+    }
+  }

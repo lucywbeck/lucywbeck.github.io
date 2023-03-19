@@ -4,7 +4,7 @@ export default function Cwf() {
     return (
         <>
             <div class="cwf">
-                <h1>Cwf</h1>
+                <h1>Challenge with Friends</h1>
                 <div class="cwf-container">
                     <p>A multiplayer game in which players compete to finish the most challenges to earn points and score high on the leaderboard.
                         I created the routes that allow players to make an account, create and join groups, create and claim challenges, upload pictures, and view group and global leaderboards.
