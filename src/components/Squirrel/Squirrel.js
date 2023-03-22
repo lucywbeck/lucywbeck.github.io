@@ -6,9 +6,10 @@ export default function Squirrel() {
             <div class="squirrel">
                 <h1>Squirrel</h1>
                 <div class="squirrel-container">
-                <p>I designed and implemented mobile app for itinerary planning using HTML, CSS, JavaScript, React.js, Node.js, and Bootstrap. 
-                    I utilized Firebase to host application on public server, store data in Realtime Database, and set up Google Authentication. 
-                    I conducted multiple rounds of user testing on target audience using pre-test surveys, task scenarios, and post-test surveys</p>
+                    <p>I designed and implemented mobile app for itinerary planning using HTML, CSS, JavaScript, React.js, Node.js, and Bootstrap. 
+                        I utilized Firebase to host application on public server, store data in Realtime Database, and set up Google Authentication. 
+                        I conducted multiple rounds of user testing on target audience using pre-test surveys, task scenarios, and post-test surveys</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nPWsnvU-9Sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </>
