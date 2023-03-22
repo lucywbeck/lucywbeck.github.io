@@ -6,15 +6,27 @@
 
 .squirrel-container {
     margin: 0;
-    padding: 3rem 10rem
+    padding: 3rem 0rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
+
+.squirrel-container > * {
+    margin: 1em;
+    width: 50%;
+  }
 
 @media (max-width: 800px) {
     .squirrel {
         padding: 1rem;
     }
-
     .squirrel-container {
         padding: 1rem 0rem;
+        flex-direction: column;
     }
+    .squirrel-container > * {
+        margin: 1em 0em;
+        width: 100%;
+      }
   }

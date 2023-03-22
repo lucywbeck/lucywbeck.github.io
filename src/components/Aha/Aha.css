@@ -6,15 +6,27 @@
 
 .aha-container {
     margin: 0;
-    padding: 3rem 10rem
+    padding: 3rem 0rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
+
+.aha-container > * {
+    margin: 1em;
+    width: 50%;
+  }
 
 @media (max-width: 800px) {
     .aha {
         padding: 1rem;
     }
-
     .aha-container {
         padding: 1rem 0rem;
+        flex-direction: column;
     }
+    .aha-container > * {
+        margin: 1em 0em;
+        width: 100%;
+      }
   }
