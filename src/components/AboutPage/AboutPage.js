@@ -20,7 +20,7 @@ export default function AboutPage() {
                     width={"300rem"}
                     alt="Lucy Beck"
                 />
-                <p>Hello, my name is Lucy Beck, and I'm a junior studying computer science at Northwestern University. I'm also an incoming Software Engineer Intern at Dropbox. I grew up in the suburbs of Chicago, and I'm currently living in Evanston, IL. In my free time, I enjoy weight lifting and creating Youtube vidoes.</p>
+                <p>Hello, my name is Lucy Beck. I am a Senior studying Computer Science at Northwestern University. I have past experience working as a Software Engineer Intern at Dropbox, Intuit, Fidelity Investments, and Reworld Inc. I grew up in the suburbs of Chicago, and I'm currently living in Evanston, IL. In my free time, I enjoy hanging out with friends, going to the gym, and creating Youtube videos.</p>
             </div>
 
             <div className="container2-2">
