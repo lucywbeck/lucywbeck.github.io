@@ -6,6 +6,18 @@ export default function ExperiencePage() {
         <div id="experience" className="experience">
             <h1>Experience</h1>
             <div className="experience-container">
+            <div>
+                  <h2>Software Engineer Intern</h2>
+                  <p>Dropbox - San Francisco, CA</p>
+                  <p>Jun 2023 - Sep 2023</p>
+                      <ul>
+                          <li>Utilized TypeScript, React.js, and Python to develop feature with three different variants for the Dropbox Install Page</li>
+                          <li>Created unit tests using Jest.js, verified code integrity using snapshots, and organized bug bash involving manual tests</li>
+                          <li>Leveraged Stormcrow to create experiment, define audience, allocate variants, and ramp up traffic for gradual rollout</li>
+                          <li>Extracted data from Hive using SQL and configured dashboards on Amplitude and Superset for data monitoring/analysis</li>
+                      </ul>
+              </div>
+
               <div>
                   <h2>Software Engineer Intern</h2>
                   <p>Intuit - Mountain View, CA</p>
